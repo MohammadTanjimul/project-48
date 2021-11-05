@@ -1,0 +1,195 @@
+/**{
+	box-sizing:border-box;
+}
+
+.container-fluid{
+	display:flex;
+	box-shadow:0px 0px 5px gray;
+	min-height:100vh !important;
+}
+
+.display_wrapper{
+	height:100%;
+	background-color:#404040;
+	overflow:auto;
+}
+
+.display_wrapper p{
+	width:100%;
+	padding:12px;
+	color:white;
+	border-top:1px solid lightgray;
+	margin:0;
+	font-size:130%;
+	text-transform:capitalize;
+}
+
+.display_wrapper form{
+	position:sticky;
+	top:0;
+}
+
+.display_wrapper form input{
+	padding:12px;
+	width:100%;
+	border:none;
+	outline:none;
+}
+
+.details_wrapper{
+	height:100%;
+	background-color:#f0f0f0;
+	overflow:auto;
+}
+
+.details_wrapper span{
+	display:block;
+	width:100%;
+	background-color:lightgray;
+	margin-bottom:30px;
+	font-size:130%;
+	padding:10px;
+}
+
+.details_wrapper .reset_btn{
+	border:none;
+	outline:none;
+	background-color:orange;
+	color:white;
+	font-size:130%;
+	padding:10px;
+	width:100%;
+}*/
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container-fluid{
+	padding:0 !important;
+	margin:0 !important;
+}
+
+.row{
+	padding:0 !important;
+	margin:0 !important;
+}
+
+.col{
+	padding:0 !important;
+}
+
+.display_wrapper{
+	height:100vh;
+	background-color:#404040;
+	overflow:auto;
+}
+
+.display_wrapper p{
+	width:100%;
+	padding:12px;
+	padding-left:30px;
+	color:white;
+	border-top:1px solid lightgray;
+	margin:0;
+	font-size:130%;
+	text-transform:capitalize;
+	overflow-x:auto;
+}
+
+.display_wrapper form{
+	width:100%;
+	position:sticky;
+	top:0;
+}
+
+.display_wrapper form input{
+	width:100%;
+	border:none;
+	outline:none;
+	padding:10px;
+	padding-left:20px;
+	font-size:110%;
+}
+
+.details_wrapper{
+	background-color:darkorange;
+	display:flex;
+	flex-direction:column;
+	border-left:2px solid lightgray;
+}
+
+.details_wrapper span{
+	width:100%;
+	padding:10px;
+	text-align:center;
+	color:white;
+}
+
+.details_wrapper .reset_btn{
+	border:none;
+	outline:none;
+	padding:8px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1200px){
+  
+
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+
+	
+  
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+	
+
+}
+
+@media screen and (min-width:540px) and (max-width:767px){
+
+	
+
+}
+
+@media screen and (max-width:575px){
+
+	.display_wrapper{
+		height:70vh;
+		background-color:#404040;
+		overflow:auto;
+	}
+
+	.details_wrapper{
+		height:30vh;
+		background-color:darkorange;
+		display:flex;
+		flex-direction:column;
+		border-left:none;
+		position:relative;
+	}
+
+	.details_wrapper .reset_btn{
+		border:none;
+		outline:none;
+		width:100%;
+		padding:8px;
+		position:absolute;
+		bottom:0;
+		right:0;
+	}
+
+}
